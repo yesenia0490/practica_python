@@ -8,7 +8,7 @@ def contraseña (longuitud):
 	while longuitud > 0:
 		num_aleatorio = random.randint(0,len(string)-1)
 		contras += string[num_aleatorio]
-		longuitud -=1
+		longuitud -= 1
 		
 	return contras
 
